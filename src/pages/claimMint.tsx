@@ -269,7 +269,7 @@ const claimMint: NextPage = () => {
                 }}
               >
                 <TextTitle>MELEGEND CLAIM IS LIVE!</TextTitle>
-                {contract.totalSupply} / {contract.maxSupply}
+                {contract.totalSupply -6000} / {contract.maxSupply -6000}
               </TextTitle>
               <TextDescription
                 style={{
